@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/pybirdbuddy/
+note: >-
+  Bird Buddy publishes no official client SDK. The library below is a
+  community, reverse-engineered client for Bird Buddy's private GraphQL
+  backend and is NOT first-party (official: false). No SDKs pointer is
+  emitted for it, so it does not count toward the sdk_count checks.
+packages:
+- language: python
+  registry: pypi
+  name: pybirdbuddy
+  url: https://pypi.org/project/pybirdbuddy/
+  install: pip install pybirdbuddy
+  version: 0.0.20
+  official: false
+  source_code: https://github.com/jhansche/pybirdbuddy
+  description: >-
+    Community Python client that queries the Bird Buddy GraphQL service
+    (feeder battery/food/signal state, sightings, collections). Password
+    login only; Google/Facebook SSO not supported.

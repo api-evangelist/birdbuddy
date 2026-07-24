@@ -1,8 +1,16 @@
 aid: birdbuddy
 name: BirdBuddy
-description: 'BirdBuddy is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Bird Buddy (Buddy Bird Inc, backed by General Catalyst) makes the world's
+  most recognized smart bird feeder and companion mobile app for discovering
+  and learning about birds. An AI vision-and-sound model identifies bird
+  species from the photos and audio captured by its camera feeders, notifies
+  owners of feathered visitors, and organizes captures into a personal
+  collection with postcards and monthly reports. Bird Buddy does not publish
+  an official public API; the app is powered by a private, account-
+  authenticated GraphQL backend hosted on AWS, which the community has
+  reverse-engineered through the third-party pybirdbuddy Python library and a
+  Home Assistant integration.
 url: https://raw.githubusercontent.com/api-evangelist/birdbuddy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,31 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/09/e5/2a09e52c-853e-2331-391c-b86c56b57bec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
 tags:
 - Company
 - Consumer
+- Consumer Hardware
+- Smart Home
+- IoT
+- Birding
+- Computer Vision
+- Mobile App
+- GraphQL
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://mybirdbuddy.com
+- type: Support
+  url: https://support.mybirdbuddy.com/hc/en-us
+- type: Blog
+  url: https://blog.mybirdbuddy.com/
+- type: Pricing
+  url: https://mybirdbuddy.com/shop/
+- type: TermsOfService
+  url: https://mybirdbuddy.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://mybirdbuddy.com/privacy-policy/
+- type: iOSApp
+  url: https://apps.apple.com/app/id1622355240
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.birdbuddy.app
+- type: Packages
+  url: packages/birdbuddy-packages.yml
+- type: DomainSecurity
+  url: security/birdbuddy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
